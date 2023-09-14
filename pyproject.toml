@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "from-statistics-to-ml"
+version = "0.1.0"
+description = ""
+license = "MIT"
+authors = ["Borodynya Maxim <borody.maxim@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/JaskierM/from-statistics-to-ml"
+keywords = ["statistics", "analysis"]
+
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+
+
+[tool.poetry.group.research.dependencies]
+jupyter = "^1.0.0"
+scipy = "^1.11.2"
+seaborn = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
